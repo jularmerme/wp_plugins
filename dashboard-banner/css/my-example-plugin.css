@@ -1,0 +1,32 @@
+#welcome-panel {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#welcome-panel::before {
+  background: none;
+}
+
+.welcome-header {
+  border-bottom: 1.5px solid gray;
+  padding-left: 10px;
+}
+
+.welcome-header h3 {
+  padding: 15px;
+}
+
+.welcome-panel-close {
+  background: rgb(38, 107, 172);
+  border-radius: 5px;
+}
+
+.welcome-message {
+  background: white;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  min-height: 4em;
+}
